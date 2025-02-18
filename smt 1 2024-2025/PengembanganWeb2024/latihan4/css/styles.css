@@ -1,0 +1,101 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* Box Model: Box Dimensions || 1. Box Dimensions: Mengatur width dan height elemen.*/
+  .box-dimensions {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    border: 10px dashed gray;
+  }
+  
+  /* Box Model: Border || 2. Box Border: Mengatur ketebalan, warna, dan gaya border. border-radius digunakan untuk membuat sudut membulat.*/
+  .box-border {
+    width: 200px;
+    height: 100px;
+    border: 5px solid blue;
+    border-radius: 10px; /* Optional for rounded edges */
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* Box Model: Padding || 3. Box Padding: Menambahkan ruang antara konten dan batas elemen.*/
+  .box-padding {
+    width: 100px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid darkred;
+    text-align: center;
+  }
+  
+  /* Box Model: Margin || 4. Box Margin: Memberi jarak di luar elemen terhadap elemen lain.*/
+  .box-margin {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid green;
+  }
+  
+  /* Box Model: Centering Content || 5. Centering Content: Menggunakan margin: auto atau Flexbox untuk memusatkan konten.*/
+  .box-centering {
+    width: 200px;
+    height: 100px;
+    background-color: lightpink;
+    margin: 0 auto; /* Center horizontally */
+    display: flex; /* Flexbox centering */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid pink;
+    text-align: center;
+  }
+  
+  /* Display Roles || 6. Display Roles: Menampilkan elemen dengan inline-block agar responsif.*/
+  .box-display {
+    display: block;
+    padding: 10px 20px;
+    background-color: lightyellow;
+    border: 1px solid gold;
+    text-align: center;
+  }
+  
+  /* Box Shadow || 7. Box Shadow: Memberikan efek bayangan pada elemen menggunakan box-shadow.*/
+  .box-shadow {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid darkgray;
+  }
+  
+  /* Rounded Corner || 8. Rounded Corner: Membuat sudut elemen membulat menggunakan border-radius.*/
+  .box-rounded {
+    width: 200px;
+    height: 100px;
+    background-color: lightsteelblue;
+    border-radius: 20px; /* Makes corners rounded */
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid steelblue;
+  }
+  
